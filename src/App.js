@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./styles.css";
+import Search from "./Search";
+import MainCity from "./MainCity";
+import NextDay from "./NextDay";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          ok!
-        </a>
-      </header>
+      <div className="Container">
+        <Search />
+        <MainCity />
+        <NextDay />
+        <NextDay />
+        <NextDay />
+        <NextDay />
+      </div>
     </div>
   );
 }
-
-export default App;
