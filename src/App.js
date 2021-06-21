@@ -14,6 +14,11 @@ export default function App() {
         <NextDay />
         <NextDay />
       </div>
+      <a
+      class="personal-info"
+      href="https://github.com/barbaraoleszek/weather-project-react"
+      >Site by Barbara Oleszek</a
+    >
     </div>
   );
 }
