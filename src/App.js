@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./App.css";
 import Search from "./Search";
 import MainCity from "./MainCity";
 import NextDay from "./NextDay";
