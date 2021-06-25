@@ -31,7 +31,7 @@ export default function MainCity(props) {
           className="text-center weather-now moved-icon main-icon"
           id="main-icon"
         >
-          <span> <img src={icon} /></span>
+          <span> <img src={icon} alt="icon" /></span>
         </div>
         <div className="text-center weather-now this-day-conditions moved-icon">
   wind: <span>{Math.round(props.data.wind)}</span>m/s
