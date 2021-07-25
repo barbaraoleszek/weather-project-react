@@ -1,6 +1,6 @@
 import "./App.css";
 import Search from "./Search";
-import NextDay from "./NextDay";
+
 
 
 
@@ -9,12 +9,7 @@ export default function App() {
     <div className="App">
       <div className="Container">
         <Search />
-        
-        <NextDay />
-        <NextDay />
-        <NextDay />
-        <NextDay />
-        <NextDay />
+       
       </div>
       <a
       className="personal-info"

@@ -1,4 +1,4 @@
-import React from "react";
+  import React from "react";
 
 
 export default function MainCity(props) {
@@ -15,6 +15,7 @@ export default function MainCity(props) {
         }
     let icon = `http://openweathermap.org/img/wn/${props.data.icon}@2x.png`;
   return (
+    <div>
     <div className="row p-2 justify-content-center">
       <div className="col p-2 col-md-3">
         <div className="pt-2 text-center weather-now city">{props.data.city}</div>
@@ -40,6 +41,7 @@ export default function MainCity(props) {
   humidity: <span>{Math.round(props.data.humidity)}</span>%
         </div>
       </div>
+    </div>
     </div>
   );
 }
